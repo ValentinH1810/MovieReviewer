@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/icon.png"      
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MovieReviewer | Watch Any Latest Movie Reviews</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/images/logo.png" alt="Logo" />
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Search Any Movie"
+          autocomplete="off"
+          id="search"
+          class="search"
+        />
+        <i class="fas fa-search"></i>
+      </form>
+    </header>
+    <div id="tags"></div>
+    <main id="main"></main>
+    <div class="pagination">
+      <div class="page" id="prev">Previous Page</div>
+      <div class="current" id="current">1</div>
+      <div class="page" id="next">Next Page</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
